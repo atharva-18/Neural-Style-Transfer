@@ -14,9 +14,9 @@ python nst.py path\to\content_image path\to\style_image
 ```
 ### <b>Example</b>
 
-Example landscape in the style of Van Gogh's "Starry Night".
-<br>
-![Result](images\Result.png)
+Example landscape in the style of Van Gogh's "Starry Night".<br>
+
+![Result](images/result.png)
 
 ### <b>Model details</b>
 ```
@@ -31,10 +31,12 @@ Using "block2_conv2" layer as mentioned in the [paper](https://arxiv.org/abs/150
 
 <b>block1_conv2</b><br>
 The resultant image loses too much style characteristics.<br>
-![block1_conv2](images\block1_conv2.png)
+
+![block1_conv2](images/block1_conv2.png)<br>
 <b>block5_conv2</b><br>
-The resultant image loses structural detail.
-![block5_conv2](images\block5_conv2.png)
+The resultant image loses structural detail.<br>
+
+![block5_conv2](images/block5_conv2.png)
 
 ### <b>References</b>
 A Neural Algorithm of Artistic Style - https://arxiv.org/abs/1508.06576 <br>
