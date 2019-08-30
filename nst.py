@@ -123,9 +123,9 @@ loss = loss + content_weight * content_loss(base_image_features,
 
 """Feature layers to be used."""
 
-feature_layers = ['block1_conv1', 'block2_conv1',
-                  'block3_conv1', 'block4_conv1',
-                  'block5_conv1']
+feature_layers = ['block1_conv2', 'block2_conv2',
+                  'block3_conv3', 'block4_conv3',
+                  'block5_conv3']
 
 for layer_name in feature_layers:
     layer_features = layers[layer_name]
